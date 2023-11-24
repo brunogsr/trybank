@@ -28,7 +28,7 @@ public class TrybankLib
         {
             if (Bank[i, 0] == number && Bank[i, 1] == agency)
             {
-                throw new Exception("A conta já está sendo usada!");
+                throw new ArgumentException("A conta já está sendo usada!");
             }
             Bank[registeredAccounts, 0] = number;
             Bank[registeredAccounts, 1] = agency;
