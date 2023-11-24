@@ -59,7 +59,7 @@ public class TrybankLib
             }
             else if (Bank[i, 0] == number && Bank[i, 1] != agency)
             {
-                throw new ArgumentException(agency + "Conta não encontrada");
+                throw new ArgumentException("Agência + Conta não encontrada");
             }
         }
     }
