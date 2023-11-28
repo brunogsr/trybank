@@ -113,7 +113,7 @@ public class TrybankLib
 		}
 		else if (Bank[loggedUser, 3] < value)
 		{
-			throw new ArgumentException("Saldo insuficiente");
+			throw new InvalidOperationException("Saldo insuficiente");
 		}
 		else
 		{
